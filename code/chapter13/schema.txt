@@ -1,0 +1,13 @@
+//订单事实表Schema
+orderID: Int
+userID: Int
+trxDate: Timestamp
+productId: Int
+price: Float
+volume: Int
+ 
+//用户维度表Schema
+userID: Int
+name: String
+age: Int
+gender: String

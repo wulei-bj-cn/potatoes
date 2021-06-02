@@ -1,0 +1,13 @@
+//orders表的关键字段
+orderId: Int
+customerId: Int
+status: String
+date: Date //分区键
+ 
+//lineitems表的关键字段
+orderId: Int //分区键
+txId: Int
+itemId: Int
+price: Float
+quantity: Int
+

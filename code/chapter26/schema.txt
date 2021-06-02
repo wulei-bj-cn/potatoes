@@ -1,0 +1,10 @@
+// 订单表orders关键字段
+userId, Int
+itemId, Int
+price, Float
+quantity, Int
+ 
+// 用户表users关键字段
+id, Int
+name, String
+type, String //枚举值，分为头部用户和长尾用户
